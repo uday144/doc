@@ -1,0 +1,40 @@
+Ingests a json feed from here. (https://dl.dropboxusercontent.com/u/746330/facts.json)
+
+
+Displays the content in a ListView ( Recycler View or card view ) - Inside fragment
+• The title in the ActionBar should be updated from the json data.
+• Each row should be dynamically sized to display its content, no clipping, no extraneous
+white-space etc.
+
+
+Loads the images lazily.
+
+
+Allows the data/view to be refreshed, via either:
+• A refresh button
+• Pull down to refresh
+
+
+Unit test case is mendatory, try to run it properly.
+
+
+Naming convention should be as per android standards.
+
+
+Use proper indentation.
+
+
+Provide Orientation Support
+
+Provide Netwotk check
+
+Use Design Pattern ( Implement MVP or MVVM)
+
+Use latest android compenent eg RX android
+
+Use Git to manage the source code. A clear history is required.
+2. The app should target Android version 4.0. Don’t worry about backwards compatibility for this
+task.
+3. The list should scroll smoothly. As much work as possible should be cached.
+4. Feel free to use any open-source libraries/examples you need, just be sure to give credit.
+5. Comment your code where necessary.
